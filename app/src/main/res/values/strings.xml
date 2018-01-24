@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chanthel Medical System</string>
+    <string name="Medication">Medication</string>
+    <string name="Medicine">Medicine</string>
+    <string name="login">Medication</string>
+    <string name="email">Form 1</string>
+    <string name="password">Form 2</string>
+    <string name="login_label">Save</string>
+    <string name="success_login_msg">SUKSES</string>
+    <string name="error_login_msg">GAGAL</string>
+</resources>

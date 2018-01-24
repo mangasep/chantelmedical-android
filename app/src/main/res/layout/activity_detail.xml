@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#379ee9">
+
+            <ImageButton
+                android:id="@+id/btnback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="#379ee9"
+                android:src="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Appoinment"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:background="#379ee9"
+                android:src="@drawable/ic_more_vert" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="94dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameDetailTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_alignTop="@+id/icon"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_toLeftOf="@+id/icon"
+                android:layout_toStartOf="@+id/icon" />
+            <TextView
+                android:id="@+id/emailDetailTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medical Problem............."
+                android:textSize="15dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/nameDetailTxt"
+                android:layout_alignStart="@+id/nameDetailTxt" />
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="0.05"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon"
+                android:layout_marginRight="23dp"
+                android:layout_marginEnd="23dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <!--medication-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/Medi_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        android:layout_weight="0.03">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/medication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Medication"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_toLeftOf="@+id/iconmedi"
+                android:layout_toStartOf="@+id/iconmedi" />
+
+            <ImageView
+                android:id="@+id/iconmedi"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.05"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_medcation"
+                android:layout_marginRight="23dp"
+                android:layout_marginEnd="23dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <!--immunization-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/Immun_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        android:layout_weight="0.03">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Immunization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Immunization"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_toLeftOf="@+id/iconimmun"
+                android:layout_toStartOf="@+id/iconimmun" />
+            <ImageView
+                android:id="@+id/iconimmun"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.05"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_immunsasi"
+                android:layout_marginRight="23dp"
+                android:layout_marginEnd="23dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <!--prescription-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/Presc_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        android:layout_weight="0.03">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/prescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prescription"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_toLeftOf="@+id/iconpresc"
+                android:layout_toStartOf="@+id/iconpresc" />
+            <ImageView
+                android:id="@+id/iconpresc"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.05"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_description"
+                android:layout_marginRight="23dp"
+                android:layout_marginEnd="23dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

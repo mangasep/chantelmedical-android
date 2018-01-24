@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\Toothless\Documents\androidrscm\CMS 2.iml" filepath="C:\Users\Toothless\Documents\androidrscm\CMS 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidrscm.iml" filepath="$PROJECT_DIR$/androidrscm.iml" />
+      <module fileurl="file://C:\Users\Toothless\Documents\androidrscm\androidrscm.iml" filepath="C:\Users\Toothless\Documents\androidrscm\androidrscm.iml" />
+      <module fileurl="file://C:\Users\Toothless\Documents\androidrscm\androidrscm1.iml" filepath="C:\Users\Toothless\Documents\androidrscm\androidrscm1.iml" />
+      <module fileurl="file://C:\Users\Toothless\Documents\androidrscm\androidrscmnew.iml" filepath="C:\Users\Toothless\Documents\androidrscm\androidrscmnew.iml" />
+      <module fileurl="file://C:\Users\Toothless\Documents\androidrscm\androidrscmnewfedit.iml" filepath="C:\Users\Toothless\Documents\androidrscm\androidrscmnewfedit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Toothless\Documents\androidrscm\app\app.iml" filepath="C:\Users\Toothless\Documents\androidrscm\app\app.iml" />
+    </modules>
+  </component>
+</project>

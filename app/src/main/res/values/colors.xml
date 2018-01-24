@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3a3a3a</color>
+    <color name="colorPrimaryDark">#2981c1</color>
+    <color name="colorAccent">#379ee9</color>
+    <color name="correct">#000000</color>
+    <color name="error">#e4ff5560</color>
+    <color name="teks">#e4ffffff</color>
+    <color name="check">#5ba5ff</color>
+    <color name="dialog">#379ee9</color>
+</resources>

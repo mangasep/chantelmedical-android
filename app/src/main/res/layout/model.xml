@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/icon"
+            android:layout_toEndOf="@+id/icon"
+            android:fontFamily="sans-serif-black"
+            android:paddingLeft="10dp"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="18dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="11dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_document"
+            android:layout_below="@+id/nameTxt"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_toEndOf="@+id/icon" />
+
+        <TextView
+            android:id="@+id/emailTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Penyakit....................."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+
+        <RelativeLayout
+            android:id="@+id/rel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250sp"
+            android:layout_above="@+id/emailTxt">
+            <Button
+                android:id="@+id/accept"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/accept"
+                android:gravity="center_vertical"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/decline"
+                android:layout_alignEnd="@+id/decline"
+                android:layout_marginRight="46dp"
+                android:layout_marginEnd="46dp" />
+
+            <Button
+                android:id="@+id/decline"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/decline"
+                android:gravity="center_vertical"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="19dp"
+                android:layout_marginEnd="19dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

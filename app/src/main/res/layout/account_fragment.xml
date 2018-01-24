@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#379ee9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="My Account"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:background="#379ee9"
+                android:src="@drawable/ic_more_vert" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do more with account"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/b_register"
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="#379ee9"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/b_login"
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/border"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="#379ee9"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="    My Account"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textStyle="bold"
+        android:background="#dbe0e2"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=  "  User"
+        android:drawableLeft="@drawable/ic_user"
+        android:textAllCaps="false"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="    Information"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textStyle="bold"
+        android:background="#dbe0e2" />
+
+    <Button
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=  "  About Us"
+        android:drawableLeft="@drawable/ic_visibility"
+        android:textAllCaps="false"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=  "  Term of Use and Policy"
+        android:drawableLeft="@drawable/ic_assignment"
+        android:textAllCaps="false"
+
+        android:gravity="center_vertical"/>
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=  "  Log Out"
+        android:drawableLeft="@drawable/ic_person_outline"
+        android:textAllCaps="false"
+        android:gravity="center_vertical"/>
+</LinearLayout>
