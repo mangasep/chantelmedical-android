@@ -14,15 +14,15 @@ I use API from openEMR Medmaster, you can view project API in https://github.com
 
 App Screenshot :
 <p align="center">
-  <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture1.png" width="150" height="300" />
-   <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture2.png" width="150" height="300" />
-   <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture3.png" width="150" height="300" />
-    <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture4.png" width="150" height="300" />
-     <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture5.png" width="150" height="300" />
-      <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture6.png" width="150" height="300" />
-  <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture7.png" width="150" height="300" />
-  <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture8.png" width="150" height="300" />
-  <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture9.png" width="150" height="300" />
+  <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture1.png" width="250" height="400" />
+   <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture2.png" width="250" height="400" />
+   <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture3.png" width="250" height="400" />
+    <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture4.png" width="250" height="400" />
+     <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture5.png" width="250" height="400" />
+      <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture6.png" width="250" height="400" />
+  <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture7.png" width="250" height="400" />
+  <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture8.png" width="250" height="400" />
+  <img src="https://github.com/alasepnugroho/chantelmedical-android/blob/master/screenshoot/Picture9.png" width="250" height="400" />
 </p>
 
 # Installation
